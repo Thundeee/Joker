@@ -4,7 +4,6 @@
   "description": "jokes for all",
   "main": "src/index.js",
   "type": "module",
-  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +16,8 @@
   "bugs": {
     "url": "https://github.com/Thundeee/Joker/issues"
   },
-  "homepage": "https://github.com/Thundeee/Joker#readme"
-  
+  "homepage": "https://github.com/Thundeee/Joker#readme",
+  "dependencies": {
+    "one-liner-joke": "^1.2.2"
+  }
 }
