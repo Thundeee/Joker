@@ -1,0 +1,27 @@
+{
+  "name": "joker",
+  "version": "0.1.0",
+  "description": "jokes for all",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node src/js/joker.js",
+    "format": "prettier -w src/js/joker.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thundeee/Joker.git"
+  },
+  "author": "Thundeee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thundeee/Joker/issues"
+  },
+  "homepage": "https://github.com/Thundeee/Joker#readme",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "give-me-a-joke": "^0.5.1"
+  }
+}
